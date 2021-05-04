@@ -1,0 +1,52 @@
+body, html
+{
+	height:100%;
+	margin:0;
+	background-color:#f7f6f5;
+	font-family: 'Rubik', sans-serif;
+	overflow-x:hidden;
+}
+.gallery
+{
+	padding:2em;
+	margin:0;
+}
+.gallery h1
+{
+	padding:10px;
+	text-align:center;
+
+}
+.card-custom
+{
+	margin:15px;
+}
+.main
+{
+
+	height:90%;
+	background-color: #f9d1b7;
+	background-image: linear-gradient(315deg, #f9d1b7 0%, #f894a4 74%);
+}
+.overlay
+{
+	width:500px;
+	height:250px;
+	background-color:black;
+	position:absolute;
+	opacity:0;
+}
+.overlay:hover
+{
+	opacity:0.5;
+	transition-duration:300ms;
+}
+
+.main-text
+{
+	position:relative;
+	top:30%;
+	color:white;
+	padding:3em;
+	line-height:5%;
+}

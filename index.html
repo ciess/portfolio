@@ -6,53 +6,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rubik&display=swap" rel="stylesheet">
 	<link href="https://unpkg.com/pattern.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
 </head>
-<style>
-	body, html
-	{
-		height:100%;
-		margin:0;
-		background-color:#f5f5f5;
-		font-family: 'Rubik', sans-serif;
-    	overflow-x:hidden;
-	}
-	.gallery
-	{
-		padding:2em;
-		margin:0;
-	}
-	.gallery h1
-	{
-		padding:10px;
-		text-align:center;
-
-	}
-	.card-custom
-	{
-		margin:15px;
-	}
-	.nav-custom
-	{
-		background-color:#f9f4ef;
-	}
-	.main
-	{
-
-	height:90%;
-	background-color: #f9d1b7;
-	background-image: linear-gradient(315deg, #f9d1b7 0%, #f894a4 74%);
-
-	}
-	.main-text
-	{
-		position:relative;
-		top:30%;
-		color:white;
-		padding:3em;
-		line-height:5%;
-}
-
-</style>
 <body>
 <div class = "main background">
 	<div class =  "main-text">
@@ -65,9 +20,10 @@
 <div class = "gallery">
 <h1>PROJECTS</h1>
 <hr style = "width:25%; margin:10px auto 20px auto;">
-<div class = "display-projects d-flex justify-content-center flex-wrap">
+<div class = "d-flex justify-content-center flex-wrap">
 	<div class="card card-custom" style="width: 500px;">
 	  <img src="mc-dma.png" height = "250px" class="card-img-top" alt="...">
+	  <div class = "overlay"></div>
 	  <div class="card-body">
 		<h5 class="card-title">Moorpark College - Graphic and Multimedia Design</h5>
 	    <p class="card-text">Used HTML/CSS and Bootstrap to reconstruct website for Moorpark College's Graphic Design and Multimedia Department. </p>
@@ -75,12 +31,14 @@
 	</div>
 	<div class="card card-custom" style="width: 500px;">
 	  <img src="mc-yearof.png" height = "250px" class="card-img-top" alt="...">
+	  <div class = "overlay"></div>
 	  <div class="card-body">
 		<h5 class="card-title">Moorpark College - "Year Of" </h5>
 	    <p class="card-text">Used HTML/CSS to reconstruct website for Moorpark College's "Year Of" program. </p>
 	  </div>
 	</div>
 	<div class="card card-custom" style="width: 500px;">
+	<div class = "overlay"></div>
 	  <img src="mc-tedx.png" height = "250px" class="card-img-top" alt="...">
 	  <div class="card-body">
 		<h5 class="card-title">Moorpark College - TEDxMoorparkCollege </h5>
@@ -89,6 +47,7 @@
 	</div>
 <div class="card card-custom" style="width: 500px;">
   <img src="dots-and-boxes.png" height = "250px" class="card-img-top" alt="...">
+  <div class = "overlay"></div>
   <div class="card-body">
 		<h5 class="card-title">Dots and Boxes </h5>
     <p class="card-text">Built Dots and Boxes game for player to play against another player or CPU.</p>
@@ -96,6 +55,7 @@
 </div>
 <div class="card card-custom" style="width: 500px;">
   <img src="tictactoe.png" height = "250px" class="card-img-top" alt="...">
+  <div class = "overlay"></div>
   <div class="card-body">
 		<h5 class="card-title">Tic-Tac-Toe </h5>
     <p class="card-text">Built Noir-themed 3x3 Tic-Tac-Toe game for player to play against CPU. </p>
@@ -103,6 +63,7 @@
 </div>
 <div class="card card-custom" style="width: 500px;">
   <img src="js1.png" height = "250px" class="card-img-top" alt="...">
+  <div class = "overlay"></div>
   <div class="card-body">
 		<h5 class="card-title">New Background Refresh </h5>
     <p class="card-text">Loads a randomized background every page refresh.</p>
@@ -110,6 +71,7 @@
 </div>
 <div class="card card-custom" style="width: 500px;">
   <img src="csm15w-ad.png" height = "250px" class="card-img-top" alt="...">
+  <div class = "overlay"></div>
   <div class="card-body">
 		<h5 class="card-title">CSM15W Advertisement </h5>
     <p class="card-text">Used CSS animations to design advertisement for CSM15W (Clientside Web Development) course.</p>
@@ -117,6 +79,7 @@
 </div>
 <div class="card card-custom" style="width: 500px;">
   <img src="cpk.png" height = "250px" class="card-img-top" alt="...">
+  <div class = "overlay"></div>
   <div class="card-body">
 		<h5 class="card-title">CPK Website Replica </h5>
     <p class="card-text">Replicated restaurant website of California Pizza Kitchen using only basic HTML/CSS.</p>
@@ -124,6 +87,7 @@
 </div>
 <div class="card card-custom" style="width: 500px;">
   <img src="searchengine.png" height = "250px" class="card-img-top" alt="...">
+  <div class = "overlay"></div>
   <div class="card-body">
 		<h5 class="card-title">Search Engines </h5>
     <p class="card-text">Loads four different search engines in frame and allows user to search from them.</p>
@@ -132,6 +96,7 @@
 
 <div class="card card-custom" style="width: 500px;">
   <img src="coke.png" height = "250px" class="card-img-top" alt="...">
+  <div class = "overlay"></div>
   <div class="card-body">
 		<h5 class="card-title">Coke/Pepsi Animations </h5>
     <p class="card-text">Created Coke/Pepsi Advertisement using animations in CSS.</p>
