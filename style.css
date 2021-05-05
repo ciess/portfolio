@@ -17,6 +17,11 @@ body, html
 	text-align:center;
 
 }
+.gallery a
+{
+	text-decoration: none;
+	color:inherit;
+}
 .card-custom
 {
 	margin:15px;
